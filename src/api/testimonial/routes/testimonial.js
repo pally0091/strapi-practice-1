@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * blog router
+ * testimonial router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::blog.blog');
+module.exports = createCoreRouter('api::testimonial.testimonial');
